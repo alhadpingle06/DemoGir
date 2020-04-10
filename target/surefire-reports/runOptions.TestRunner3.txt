@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: runOptions.TestRunner3
+-------------------------------------------------------------------------------
+Tests run: 40, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.248 s - in runOptions.TestRunner3

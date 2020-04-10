@@ -1,0 +1,636 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Some background",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 996000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Background given step",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.background_given_step()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 999500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Background when step",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.background_when_step()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Background then step",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.background_then_step()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-09T10:52:49.354Z",
+        "line": 40,
+        "name": "Scenarion outline and examples keyword usage",
+        "description": "",
+        "id": "login-feature-file;scenarion-outline-and-examples-keyword-usage;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 996400,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User is on netbanking landing page",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.user_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 996000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User Login into application with username user1 and password pass1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user1",
+                  "offset": 42
+                },
+                {
+                  "val": "pass1",
+                  "offset": 61
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition2.user_login_into_application_with_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 997600,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Cards displayed is true",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition2.cards_displayed_is(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@something"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Some background",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 997200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Background given step",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.background_given_step()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 997700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Background when step",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.background_when_step()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1994200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Background then step",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.background_then_step()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-09T10:52:49.399Z",
+        "line": 41,
+        "name": "Scenarion outline and examples keyword usage",
+        "description": "",
+        "id": "login-feature-file;scenarion-outline-and-examples-keyword-usage;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 997100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User is on netbanking landing page",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.user_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User Login into application with username user2 and password pass2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user2",
+                  "offset": 42
+                },
+                {
+                  "val": "pass2",
+                  "offset": 61
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition2.user_login_into_application_with_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 996600,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Cards displayed is false",
+            "match": {
+              "arguments": [
+                {
+                  "val": "false",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition2.cards_displayed_is(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@something"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Some background",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 996600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Background given step",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.background_given_step()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 996400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Background when step",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.background_when_step()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 162565000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Background then step",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.background_then_step()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-09T10:52:49.420Z",
+        "line": 42,
+        "name": "Scenarion outline and examples keyword usage",
+        "description": "",
+        "id": "login-feature-file;scenarion-outline-and-examples-keyword-usage;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 996600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User is on netbanking landing page",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.user_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 997100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User Login into application with username user3 and password pass3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user3",
+                  "offset": 42
+                },
+                {
+                  "val": "pass3",
+                  "offset": 61
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition2.user_login_into_application_with_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 997900,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Cards displayed is true",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition2.cards_displayed_is(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@something"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Some background",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6986600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Background given step",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.background_given_step()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 996900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Background when step",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.background_when_step()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 987900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Background then step",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.background_then_step()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-09T10:52:49.613Z",
+        "line": 43,
+        "name": "Scenarion outline and examples keyword usage",
+        "description": "",
+        "id": "login-feature-file;scenarion-outline-and-examples-keyword-usage;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2992500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User is on netbanking landing page",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.user_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User Login into application with username user4 and password pass4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user4",
+                  "offset": 42
+                },
+                {
+                  "val": "pass4",
+                  "offset": 61
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition2.user_login_into_application_with_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 998000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Cards displayed is false",
+            "match": {
+              "arguments": [
+                {
+                  "val": "false",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition2.cards_displayed_is(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@something"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Some background",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 997100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Background given step",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.background_given_step()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 989500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Background when step",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.background_when_step()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Background then step",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.background_then_step()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-09T10:52:49.719Z",
+        "line": 44,
+        "name": "Scenarion outline and examples keyword usage",
+        "description": "",
+        "id": "login-feature-file;scenarion-outline-and-examples-keyword-usage;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1994700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User is on netbanking landing page",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.user_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3986200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User Login into application with username user5 and password pass5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user5",
+                  "offset": 42
+                },
+                {
+                  "val": "pass5",
+                  "offset": 61
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition2.user_login_into_application_with_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1994900,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3970400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Cards displayed is true",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition2.cards_displayed_is(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@something"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature File",
+    "description": "",
+    "id": "login-feature-file",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": []
+  }
+]

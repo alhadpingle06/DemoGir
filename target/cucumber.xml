@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="0.498">
+    <testcase classname="Login Feature File" name="Scenarion outline and examples keyword usage" time="0.035">
+        <system-out>
+            <![CDATA[Given Background given step.................................................passed
+When Background when step...................................................passed
+Then Background then step...................................................passed
+Given User is on netbanking landing page....................................passed
+When User Login into application with username user1 and password pass1.....passed
+Then Home page is populated.................................................passed
+And Cards displayed is true.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login Feature File" name="Scenarion outline and examples keyword usage 2" time="0.012">
+        <system-out>
+            <![CDATA[Given Background given step.................................................passed
+When Background when step...................................................passed
+Then Background then step...................................................passed
+Given User is on netbanking landing page....................................passed
+When User Login into application with username user2 and password pass2.....passed
+Then Home page is populated.................................................passed
+And Cards displayed is false................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login Feature File" name="Scenarion outline and examples keyword usage 3" time="0.186">
+        <system-out>
+            <![CDATA[Given Background given step.................................................passed
+When Background when step...................................................passed
+Then Background then step...................................................passed
+Given User is on netbanking landing page....................................passed
+When User Login into application with username user3 and password pass3.....passed
+Then Home page is populated.................................................passed
+And Cards displayed is true.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login Feature File" name="Scenarion outline and examples keyword usage 4" time="0.044">
+        <system-out>
+            <![CDATA[Given Background given step.................................................passed
+When Background when step...................................................passed
+Then Background then step...................................................passed
+Given User is on netbanking landing page....................................passed
+When User Login into application with username user4 and password pass4.....passed
+Then Home page is populated.................................................passed
+And Cards displayed is false................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login Feature File" name="Scenarion outline and examples keyword usage 5" time="0.093">
+        <system-out>
+            <![CDATA[Given Background given step.................................................passed
+When Background when step...................................................passed
+Then Background then step...................................................passed
+Given User is on netbanking landing page....................................passed
+When User Login into application with username user5 and password pass5.....passed
+Then Home page is populated.................................................passed
+And Cards displayed is true.................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
