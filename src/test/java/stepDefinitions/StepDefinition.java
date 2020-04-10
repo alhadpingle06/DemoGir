@@ -32,6 +32,7 @@ public class StepDefinition {
 	    // Write code here that turns the phrase above into concrete actions
 //	    throw new PendingException();
 		System.out.println("User launch login page");
+		System.out.println("this is new code");
 	}
 
 	@When("^User Login into application with username and password$")
